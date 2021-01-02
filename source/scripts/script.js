@@ -1,11 +1,11 @@
-const link = document.querySelector("#link");
-const button = document.querySelectorAll(".button")
+const inputData = document.querySelector('.formula'),
+      resultData = document.querySelectorAll('.result');
 
-link.addEventListener("click", function () {
-});
+function input(i) {
+    inputData.value = inputData.value + i
+}
 
-for(let pressedButton of button) {
-    pressedButton.addEventListener("click", function () {
-        console.log('button clicked');
-    });
+function result() {
+    resultData.value = eval(inputData.value);
+    inputData.value = eval(inputData.value);
 }

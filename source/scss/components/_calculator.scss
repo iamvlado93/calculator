@@ -6,7 +6,7 @@
 }
 
 .calculator {
-    width: 290px;
+    width: 270px;
     position: relative;
     grid-column: span 4;
     border-radius: 12px;
@@ -15,7 +15,7 @@
 }
 
 .calculator .screen {
-    height: 200px;
+    height: 210px;
     text-align: right;
     border: none;
     outline: none;
@@ -33,11 +33,27 @@
 
 .formula {
     font-size: 20px;
+    background-color: black;
+    color: rgb(50, 99, 205);
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.formula::placeholder {
     color: rgb(50, 99, 205);
 }
 
 .result {
     font-size: 40px;
+    background-color: black;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.result::placeholder {
+    color: white;
 }
 
 .attribute {
@@ -47,11 +63,7 @@
     border: 2px solid #f5f5f5;
     border-radius: 12px 12px 0 0;
     background: #f5f5f5;
-    box-shadow: 1px 2px 4px 1px#c9c9ce, -1px -2px 4px 1px #ffffff;
-}
-
-span {
-    border-radius: 12px;
+    
 }
 
 .touchpad {
@@ -68,8 +80,11 @@ span {
     font-size: 20px;
     width: 50px;
     height: 50px;
+    border: none;
+    outline: none;
     background: #f5f5f5;
-    filter: drop-shadow(7px 3px 10px #aeaeb4);
+    border-radius: 12px;
+    box-shadow: 1px 2px 4px 1px#c9c9ce, -1px -2px 4px 1px #ffffff;
 }
 
 .touchpad .button__upper-row {
