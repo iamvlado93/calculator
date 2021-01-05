@@ -1,4 +1,14 @@
 @media screen and (max-width: 600px) {
+    .wrap {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        min-height: 100vh;
+        background: #ffffff;
+    }
+    
     .calculator {
         width: 170px;
     }
