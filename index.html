@@ -21,30 +21,30 @@
     <!-- Calculator -->
     <div class="calculator">
         <div class="screen">
-            <input type="text" placeholder="0,00" class="formula" readonly>
+            <input type="text" placeholder="0,0" class="formula" readonly>
             <input type="text" placeholder="0,00" class="result" readonly>
         </div>
         <div class="attribute"></div>
         <div class="touchpad">
-            <button onclick="input('C')" class="button button__upper-row" id="link">C</button>
-            <button onclick="input('')" class="button button__upper-row" id="link">+/-</button>
-            <button onclick="input('%')" class="button button__upper-row" id="link">%</button>
-            <button onclick="input('/')" class="button button__upper-row" id="link">/</button>
-            <button onclick="input('7')" class="button button__number" id="link">7</button>
-            <button onclick="input('8')" class="button button__number" id="link">8</button>
-            <button onclick="input('9')" class="button button__number" id="link">9</button>
-            <button onclick="input('*')" class="button button__side-row" id="link">*</button>
-            <button onclick="input('4')" class="button button__number" id="link">4</button>
-            <button onclick="input('5')" class="button button__number" id="link">5</button>
-            <button onclick="input('6')" class="button button__number" id="link">6</button>
-            <button onclick="input('-')" class="button button__side-row" id="link">-</button>
-            <button onclick="input('1')" class="button button__number" id="link">1</button>
-            <button onclick="input('2')" class="button button__number" id="link">2</button>
-            <button onclick="input('3')" class="button button__number" id="link">3</button>
-            <button onclick="input('+')" class="button button__side-row" id="link">+</button>
-            <button onclick="input('0')" class="button button__zero" id="link">0</button>
-            <button onclick="input('.')" class="button button__dot" id="link">.</button>
-            <button onclick="result()" class="button button__equal" id="link">=</button>
+            <button onclick="reset()" class="button button__upper-row">C</button>
+            <button onclick="plusminus()" class="button button__upper-row">+/-</button>
+            <button onclick="percentage()" class="button button__upper-row" id="percent">%</button>
+            <button onclick="input('/')" class="button button__side-row">/</button>
+            <button onclick="input('7')" class="button button__number">7</button>
+            <button onclick="input('8')" class="button button__number">8</button>
+            <button onclick="input('9')" class="button button__number">9</button>
+            <button onclick="input('*')" class="button button__side-row">*</button>
+            <button onclick="input('4')" class="button button__number">4</button>
+            <button onclick="input('5')" class="button button__number">5</button>
+            <button onclick="input('6')" class="button button__number">6</button>
+            <button onclick="input('-')" class="button button__side-row">-</button>
+            <button onclick="input('1')" class="button button__number">1</button>
+            <button onclick="input('2')" class="button button__number">2</button>
+            <button onclick="input('3')" class="button button__number">3</button>
+            <button onclick="input('+')" class="button button__side-row">+</button>
+            <button onclick="input('0')" class="button button__zero">0</button>
+            <button onclick="input('.')" class="button button__dot">.</button>
+            <button onclick="result()" class="button button__equal">=</button>
         </div>
     </div>   
 </div>
