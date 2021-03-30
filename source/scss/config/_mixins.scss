@@ -1,0 +1,31 @@
+@mixin default {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@mixin button-none {
+    outline: none;
+    border: none;
+    user-select: none;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin bebas-font {
+    font-family: 'Bebas Neue';
+}
+
+@mixin transit-transform {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.2);
+}

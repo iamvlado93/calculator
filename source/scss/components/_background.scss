@@ -1,74 +1,14 @@
-.wrap {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    min-height: 100vh;
-    background: #ffffff;
+* {
+    @include default;
 }
 
-.rectangle-left {
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    margin-right: 800px;
-    margin-bottom: 300px;
-    background: #f5f5f5;
-    border-radius: 12px;
-    box-shadow: 10px 20px 28px 10px#c9c9ce, -10px -20px 28px 10px #ffffff;
+body {
+    height: 100vh;
+    @include flex-center;
+    background: linear-gradient(0deg, rgba(150,2,254,1) 0%, rgba(250,0,213,1) 100%);
+    @include bebas-font;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
-.rectangle-right {
-    position: absolute;
-    width: 230px;
-    height: 230px;
-    margin-left: 800px;
-    margin-bottom: 370px;
-    background: #f5f5f5;
-    border-radius: 12px;
-    box-shadow: 10px 20px 28px 10px#c9c9ce, -10px -20px 28px 10px #ffffff;
-}
 
-.circle-left {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    margin-left: 750px;
-    margin-top: 400px;
-    background: #f5f5f5;
-    border-radius: 50%;
-    box-shadow: 10px 20px 28px 10px#c9c9ce, -10px -20px 28px 10px #ffffff;
-}
-
-.circle-right {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    margin-right: 700px;
-    margin-top: 500px;
-    background: #f5f5f5;
-    border-radius: 50%;
-    box-shadow: 10px 20px 28px 10px#c9c9ce, -10px -20px 28px 10px #ffffff;
-}
-
-.upper-dots {
-    position: absolute;
-    background-image: url(../img/dots.png);
-    background-size: contain;
-    width: 120px;
-    height: 200px;
-    margin-right: 300px;
-    margin-bottom: 400px;
-}
-
-.lower-dots {
-    position: absolute;
-    background-image: url(../img/dots.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 140px;
-    height: 220px;
-    margin-left: 300px;
-    margin-top: 20px;
-}
