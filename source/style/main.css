@@ -32,8 +32,8 @@ p {
   display: grid;
   -ms-grid-columns: (90px)[4];
       grid-template-columns: repeat(4, 90px);
-  -ms-grid-rows: minmax(110px, auto) (90px)[5];
-      grid-template-rows: minmax(110px, auto) repeat(5, 90px);
+  -ms-grid-rows: minmax(100px, auto) (90px)[5];
+      grid-template-rows: minmax(100px, auto) repeat(5, 90px);
   border-top: 4px solid rgba(255, 255, 255, 0.15);
   border-left: 4px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.212);

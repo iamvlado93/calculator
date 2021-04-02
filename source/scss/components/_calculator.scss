@@ -5,7 +5,7 @@ p {
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 90px);
-    grid-template-rows: minmax(110px, auto) repeat(5, 90px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 90px);
     border-top: 4px solid $hover-grey;
     border-left: 4px solid $hover-grey;
     background: $background;
